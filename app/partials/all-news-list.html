@@ -1,0 +1,20 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="phones">
+        <li ng-repeat="item in reddit.data.children" class="thumbnail">
+             <a href="{{item.data.url}}">{{item.data.title}}</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

@@ -101,7 +101,6 @@ Requires a webserver that serves the application. See Running the app during dev
         servicesSpec.js    --> specs for services
 
 ## Contact
-[Geotabular]: http://www.geotabular.com
 [7 Zip]: http://www.7-zip.org/
 [angular-seed]: https://github.com/angular/angular-seed
 [DI]: http://docs.angularjs.org/guide/di
