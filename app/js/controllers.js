@@ -32,11 +32,7 @@ iflJavaControllers
                     title: jsonPath(child, options.titlePath, true),
                     url: jsonPath(child, options.urlPath),
                     summary: jsonPath(child, options.summaryPath, true),
-<<<<<<< HEAD
-                    rank: rawNewsList.indexOf(child),
-=======
                     rank: rawNewsList.indexOf(child) + (options.rankIndex / 10),
->>>>>>> master
                     provider: options.provider,
                     providerUrl: options.providerUrl,
                     favIconUrl: options.favIconUrl

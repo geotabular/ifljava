@@ -10,12 +10,8 @@
                     "urlPath": "data.url",
                     "summaryPath": "data.domain",
                     "exclusions": [{"path":"data.domain","value":"self.java"}],
-<<<<<<< HEAD
-                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.reddit.com"
-=======
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.reddit.com",
 					"rankIndex": 1
->>>>>>> master
                 },
                 {
                     "type":"xml",
@@ -26,12 +22,8 @@
                     "titlePath": "title",
                     "urlPath": "link",
                     "summaryPath": "contentSnippet",
-<<<<<<< HEAD
-                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.javaworld.com"
-=======
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.javaworld.com",
 					"rankIndex": 2
->>>>>>> master
                 },
                 {
                     "type":"xml",
@@ -42,12 +34,8 @@
                     "titlePath": "title",
                     "urlPath": "link",
                     "summaryPath": "contentSnippet",
-<<<<<<< HEAD
-                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.dzone.com"
-=======
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.dzone.com",
 					"rankIndex": 3
->>>>>>> master
                 },
                 {
                     "type":"xml",
@@ -58,12 +46,8 @@
                     "titlePath": "title",
                     "urlPath": "link",
                     "summaryPath": "contentSnippet",
-<<<<<<< HEAD
-                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.developer.com/"
-=======
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.developer.com/",
 					"rankIndex": 4
->>>>>>> master
                 },
                 {
                     "type":"xml",
@@ -74,12 +58,8 @@
                     "titlePath": "title",
                     "urlPath": "link",
                     "summaryPath": "contentSnippet",
-<<<<<<< HEAD
-                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.theserverside.com/"
-=======
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.theserverside.com/",
 					"rankIndex": 5
->>>>>>> master
                 },
                 {
                     "type":"xml",
@@ -90,12 +70,8 @@
                     "titlePath": "title",
                     "urlPath": "link",
                     "summaryPath": "contentSnippet",
-<<<<<<< HEAD
-                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.infoq.com/"
-=======
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.infoq.com/",
 					"rankIndex": 6
->>>>>>> master
                 }
                 
     ]
