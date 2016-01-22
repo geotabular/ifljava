@@ -1,1 +1,29 @@
 /* app css stylesheet */
+/* app css stylesheet */
+
+body {
+  padding-top: 20px;
+}
+
+.news {
+  list-style: none;
+}
+.favIcon{
+    display: inline !important;
+    padding-bottom: 3px;
+}
+.provider a:hover {
+    text-decoration: underline;
+    max-width: none;
+}
+.provider a {
+    display: inline;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 19em;
+}
+
+
+

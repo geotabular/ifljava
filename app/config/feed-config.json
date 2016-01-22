@@ -1,0 +1,38 @@
+{
+    "feeds": [
+                {
+                    "type":"json",
+                    "provider": "Reddit",
+                    "providerUrl": "https://www.reddit.com",
+                    "url":"https://www.reddit.com/r/java/.json",
+                    "newsListPath": "data.children",
+                    "titlePath": "data.title",
+                    "urlPath": "data.url",
+                    "summaryPath": "data.domain",
+                    "exclusions": [{"path":"data.domain","value":"self.java"}],
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.reddit.com"
+                },
+                {
+                    "type":"xml",
+                    "provider": "Java World",
+                    "providerUrl": "http://www.javaworld.com/",
+                    "url":"http://www.javaworld.com/index.rss",
+                    "newsListPath": "responseData.feed.entries",
+                    "titlePath": "title",
+                    "urlPath": "link",
+                    "summaryPath": "contentSnippet",
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.javaworld.com"
+                },
+                {
+                    "type":"xml",
+                    "provider": "DZone Java Zone",
+                    "providerUrl": "http://www.dzone.com/java",
+                    "url":"http://feeds.dzone.com/java",
+                    "newsListPath": "responseData.feed.entries",
+                    "titlePath": "title",
+                    "urlPath": "link",
+                    "summaryPath": "contentSnippet",
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.dzone.com"
+                }
+    ]
+}
