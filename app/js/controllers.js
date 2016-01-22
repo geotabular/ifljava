@@ -11,7 +11,6 @@ iflJavaControllers
         'xml' : readXmlFeed.parseFeed
     };
     $http.get("config/feed-config.json").success(function(data){
-       console.log(data); 
        $.each(data.feeds, function(index, feedConfig){
           addNewsFeed($scope, readers, feedConfig); 
        });
@@ -30,7 +29,7 @@ iflJavaControllers
             }) : rawNewsList;
             var newsList = filteredRawNewsList.map(function(child){
                 return {
-                    title: jsonPath(child, options.titlePath),
+                    title: jsonPath(child, options.titlePath, true),
                     url: jsonPath(child, options.urlPath),
                     summary: jsonPath(child, options.summaryPath, true),
                     rank: rawNewsList.indexOf(child),

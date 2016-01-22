@@ -25,7 +25,7 @@
                 },
                 {
                     "type":"xml",
-                    "provider": "DZone Java Zone",
+                    "provider": "DZone: Java Zone",
                     "providerUrl": "http://www.dzone.com/java",
                     "url":"http://feeds.dzone.com/java",
                     "newsListPath": "responseData.feed.entries",
@@ -33,6 +33,40 @@
                     "urlPath": "link",
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.dzone.com"
+                },
+                {
+                    "type":"xml",
+                    "provider": "Developer.com",
+                    "providerUrl": "http://www.developer.com/java/",
+                    "url":"http://www.developer.com/icom_includes/feeds/developer/dev-25.xml",
+                    "newsListPath": "responseData.feed.entries",
+                    "titlePath": "title",
+                    "urlPath": "link",
+                    "summaryPath": "contentSnippet",
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.developer.com/"
+                },
+                {
+                    "type":"xml",
+                    "provider": "The Server Side",
+                    "providerUrl": "http://www.theserverside.com/",
+                    "url":"http://www.theserverside.com/rss/forum.tss?forum_id=2",
+                    "newsListPath": "responseData.feed.entries",
+                    "titlePath": "title",
+                    "urlPath": "link",
+                    "summaryPath": "contentSnippet",
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.theserverside.com/"
+                },
+                {
+                    "type":"xml",
+                    "provider": "InfoQ",
+                    "providerUrl": "http://www.infoq.com/",
+                    "url":"http://www.infoq.com/feed/java/news",
+                    "newsListPath": "responseData.feed.entries",
+                    "titlePath": "title",
+                    "urlPath": "link",
+                    "summaryPath": "contentSnippet",
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.infoq.com/"
                 }
+                
     ]
 }
