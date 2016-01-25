@@ -1,10 +1,10 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-2">
+    <div class="col-md-1">
       <!--Sidebar content-->
         <form>
             <div class="form-group">
-                <label for="searchQuery">Search:</label>
+                <label for="searchQuery">Filter:</label>
                 <input id="searchQuery" ng-model="query" class="form-control" placeholder="Keywords">
             </div>
             <div class="form-group">
@@ -15,8 +15,8 @@
                     <option value="title">Title</option>
                     <option value="publishedDate.dateObject">Date</option>
                 </select>
-                <label class="form-checkbox-label" for="ascending">Ascending:</label>
-                <input class="form-checkbox" id="ascending" ng-model="ascendingProp" type="checkbox"/>
+                <label class="form-checkbox-label" for="ascending">Descending:</label>
+                <input class="form-checkbox" id="ascending" ng-model="ascendingProp" type="checkbox" checked="checked"/>
             </div>
         </form>
     </div>

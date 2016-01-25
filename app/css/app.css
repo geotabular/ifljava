@@ -27,6 +27,13 @@ body {
     text-overflow: ellipsis;
     max-width: 19em;
 }
+.provider a:visited {
+    color: #999;
+}
+
+a:visited {
+    color: #551a8b;
+}
 
 .form-checkbox{
     padding-top: 10px;
