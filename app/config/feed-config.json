@@ -91,6 +91,21 @@
                     },
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.infoq.com/",
 					"rankIndex": 6
+                },
+                {
+                    "type":"xml",
+                    "provider": "Java Code Geeks",
+                    "providerUrl": "http://www.javacodegeeks.com/",
+                    "url":"http://feeds.feedburner.com/JavaCodeGeeks",
+                    "newsListPath": "responseData.feed.entries",
+                    "titlePath": "title",
+                    "urlPath": "link",
+                    "publishedDate":{
+                      "path":"publishedDate"
+                    },
+                    "summaryPath": "contentSnippet",
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.javacodegeeks.com",
+					"rankIndex": 7
                 }
                 
     ]
