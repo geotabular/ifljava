@@ -6,7 +6,6 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  padding-top: 20px;
   margin-bottom: 60px;
 }
 .footer {
@@ -22,6 +21,24 @@ body {
 .container-fluid .text-muted {
   margin: 20px 0;
 }
+.navbar-brand-label{
+    color: #6782AC;
+    position: relative;
+    top: 16px;
+    left: -14px;
+    font-family: "Courier New", Courier, monospace;
+}
+.navbar-brand-label span{
+    color:#B22F2F;
+}
+.navbar-brand-container{
+    float: left;
+    height: 50px;
+    padding: 8px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
 .news {
   list-style: none;
 }
