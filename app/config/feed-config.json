@@ -7,7 +7,7 @@
                       "multiplier": 1000
                     },
                     "provider": "Reddit",
-                    "providerUrl": "https://www.reddit.com",
+                    "providerUrl": "https://www.reddit.com/r/java",
                     "url":"https://www.reddit.com/r/java/.json",
                     "newsListPath": "data.children",
                     "titlePath": "data.title",
