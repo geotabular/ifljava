@@ -12,6 +12,9 @@ body {
     display: inline !important;
     padding-bottom: 3px;
 }
+.provider{
+    color:#999;
+}
 .provider a:hover {
     text-decoration: underline;
     max-width: none;
@@ -23,6 +26,14 @@ body {
     white-space: nowrap;
     text-overflow: ellipsis;
     max-width: 19em;
+}
+
+.form-checkbox{
+    padding-top: 10px;
+}
+
+.form-checkbox-label{
+    padding-top: 10px;
 }
 
 

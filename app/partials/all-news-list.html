@@ -10,21 +10,25 @@
             <div class="form-group">
                 <label for="orderSelect">Order by:</label>
                 <select id="orderSelect" ng-model="orderProp" class="form-control">
-                    <option value="provider">Provider</option>
+                    <option value="provider">Source</option>
                     <option value="rank">Rank</option>
                     <option value="title">Title</option>
+                    <option value="publishedDate.dateObject">Date</option>
                 </select>
+                <label class="form-checkbox-label" for="ascending">Ascending:</label>
+                <input class="form-checkbox" id="ascending" ng-model="ascendingProp" type="checkbox"/>
             </div>
         </form>
     </div>
     <div class="col-md-8">
       <!--Body content-->
       <ul class="news">
-        <li ng-repeat="item in allNewsList | filter:query | orderBy:orderProp" class="thumbnail">
+        <li ng-repeat="item in allNewsList | filter:query | orderBy:orderProp:ascendingProp" class="thumbnail">
              <img class="favIcon" ng-src="{{item.favIconUrl}}"/>
              &nbsp;<a href="{{item.url}}">{{item.title}}</a>
              <br><small>{{item.summary}}</small>
              <br><small class="provider">Source:&nbsp;<a href="{{item.providerUrl}}">{{item.provider}}</a></small>
+             <br><small class="provider">Published:&nbsp;{{item.publishedDate.prefix}}{{item.publishedDate.time}}&nbsp;{{item.publishedDate.date}}</a></small>
         </li>
       </ul>
     </div>
