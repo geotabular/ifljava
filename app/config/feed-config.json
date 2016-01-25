@@ -2,6 +2,10 @@
     "feeds": [
                 {
                     "type":"json",
+                    "publishedDate":{
+                      "path":"data.created_utc",
+                      "multiplier": 1000
+                    },
                     "provider": "Reddit",
                     "providerUrl": "https://www.reddit.com",
                     "url":"https://www.reddit.com/r/java/.json",
@@ -21,6 +25,9 @@
                     "newsListPath": "responseData.feed.entries",
                     "titlePath": "title",
                     "urlPath": "link",
+                    "publishedDate":{
+                      "path":"publishedDate"
+                    },
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.javaworld.com",
 					"rankIndex": 2
@@ -33,6 +40,9 @@
                     "newsListPath": "responseData.feed.entries",
                     "titlePath": "title",
                     "urlPath": "link",
+                    "publishedDate":{
+                      "path":"publishedDate"
+                    },
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.dzone.com",
 					"rankIndex": 3
@@ -45,6 +55,9 @@
                     "newsListPath": "responseData.feed.entries",
                     "titlePath": "title",
                     "urlPath": "link",
+                    "publishedDate":{
+                      "path":"publishedDate"
+                    },
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.developer.com/",
 					"rankIndex": 4
@@ -58,6 +71,9 @@
                     "titlePath": "title",
                     "urlPath": "link",
                     "summaryPath": "contentSnippet",
+                    "publishedDate":{
+                      "path":"publishedDate"
+                    },
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.theserverside.com/",
 					"rankIndex": 5
                 },
@@ -70,6 +86,9 @@
                     "titlePath": "title",
                     "urlPath": "link",
                     "summaryPath": "contentSnippet",
+                    "publishedDate":{
+                      "path":"publishedDate"
+                    },
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.infoq.com/",
 					"rankIndex": 6
                 }
