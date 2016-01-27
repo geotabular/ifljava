@@ -23,7 +23,7 @@
     <div class="col-md-8">
       <!--Body content-->
       <ul class="news">
-        <li ng-repeat="item in allNewsList | filter:query | orderBy:orderProp:ascendingProp" class="thumbnail">
+        <li ng-repeat="item in allNewsList | filter:query | orderBy:orderProp:ascendingProp" class="thumbnail {{item.itemStyleClassName}}">
              <img class="favIcon" ng-src="{{item.favIconUrl}}"/>
              &nbsp;<a href="{{item.url}}">{{item.title}}</a>
              <br><small>{{item.summary}}</small>

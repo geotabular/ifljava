@@ -15,7 +15,8 @@
                     "summaryPath": "data.domain",
                     "exclusions": [{"path":"data.domain","value":"self.java"}],
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.reddit.com",
-					"rankIndex": 1
+					"rankIndex": 1,
+                    "itemStyleClassName": "reddit-news-item"
                 },
                 {
                     "type":"xml",
@@ -30,7 +31,8 @@
                     },
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.javaworld.com",
-					"rankIndex": 2
+					"rankIndex": 2,
+                    "itemStyleClassName" : "java-world-news-item"
                 },
                 {
                     "type":"xml",
@@ -45,7 +47,8 @@
                     },
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.dzone.com",
-					"rankIndex": 3
+					"rankIndex": 3,
+                    "itemStyleClassName": "dzone-news-item"
                 },
                 {
                     "type":"xml",
@@ -60,7 +63,8 @@
                     },
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.developer.com/",
-					"rankIndex": 4
+					"rankIndex": 4,
+                    "itemStyleClassName": "developer-news-item"
                 },
                 {
                     "type":"xml",
@@ -75,7 +79,8 @@
                       "path":"publishedDate"
                     },
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.theserverside.com/",
-					"rankIndex": 5
+					"rankIndex": 5,
+                    "itemStyleClassName": "tss-news-item"
                 },
                 {
                     "type":"xml",

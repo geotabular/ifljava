@@ -5,8 +5,21 @@
         -webkit-padding-start: 5px;
     }
 }
-
-
+.reddit-news-item{
+    background-color: #FAFCFF;
+}
+.java-world-news-item{
+    background-color: #FFF5F5
+}
+.dzone-news-item{
+    background-color: #FFFAE2;
+}
+.developer-news-item{
+    background-color: #EBEEF3;
+}
+.tss-news-item{
+    background-color: #F3F3F3;
+}
 /* app css stylesheet */
 html {
   position: relative;

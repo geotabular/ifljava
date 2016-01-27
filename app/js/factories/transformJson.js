@@ -12,7 +12,8 @@ iflJavaControllers.factory('transformJson', ['jsonPath', 'createPublishedDate', 
                 provider: options.provider,
                 providerUrl: options.providerUrl,
                 favIconUrl: options.favIconUrl,
-                publishedDate: createPublishedDate(child, options)
+                publishedDate: createPublishedDate(child, options),
+                itemStyleClassName: options.itemStyleClassName
             }; 
         });
     };
