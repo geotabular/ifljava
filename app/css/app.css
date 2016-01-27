@@ -1,5 +1,13 @@
-/* app css stylesheet */
 
+@media (max-width: 991px) {
+    .news {
+        list-style: none;
+        -webkit-padding-start: 5px;
+    }
+}
+
+
+/* app css stylesheet */
 html {
   position: relative;
   min-height: 100%;
