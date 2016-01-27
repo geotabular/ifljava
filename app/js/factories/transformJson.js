@@ -7,6 +7,7 @@ iflJavaControllers.factory('transformJson', ['jsonPath', 'createPublishedDate', 
             return {
                 title: jsonPath(child, options.titlePath, true),
                 url: jsonPath(child, options.urlPath),
+                urlEncoded: encodeURIComponent(jsonPath(child, options.urlPath)),
                 summary: jsonPath(child, options.summaryPath, true),
                 rank: newsList.indexOf(child) + (options.rankIndex / 10),
                 provider: options.provider,

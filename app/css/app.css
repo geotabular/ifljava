@@ -5,7 +5,11 @@
         -webkit-padding-start: 5px;
     }
 }
-
+.share-icon{
+    display: inline;
+    height: 16px;
+    width: 16px;
+}
 
 /* app css stylesheet */
 html {
@@ -57,7 +61,6 @@ body {
     font-size: 18px;
     line-height: 20px;
 }
-
 .news {
   list-style: none;
 }
