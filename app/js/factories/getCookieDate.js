@@ -4,7 +4,7 @@ var iflJavaControllers = angular.module('iflJavaControllers');
 
 iflJavaControllers.factory('getCookieDate', [function(){
     return function(url){        
-        var name = url + "=";
+        var name = '_ifljava_' + encodeURIComponent(url) + "=";
         var ca = document.cookie.split(';');
         for(var i=0; i<ca.length; i++) {
             var c = ca[i];

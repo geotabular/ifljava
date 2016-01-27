@@ -106,7 +106,30 @@
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.javacodegeeks.com",
 					"rankIndex": 7
+                },
+                {
+                    "type":"xml",
+                    "provider": "Zeroturnaround",
+                    "providerUrl": "http://www.zeroturnaround.com/",
+                    "url":"https://zeroturnaround.com/feed/",
+                    "newsListPath": "responseData.feed.entries",
+                    "titlePath": "title",
+                    "urlPath": "link",
+                    "publishedDate":{
+                      "path":"publishedDate"
+                    },
+                    "summaryPath": "contentSnippet",
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.zeroturnaround.com",
+					"rankIndex": 8
                 }
+                
+                
+                
+                
+                
+                
+                
+                
                 
     ]
 }

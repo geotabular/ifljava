@@ -8,7 +8,7 @@ iflJavaControllers.factory('createCookieDate', [function(){
         var time = d.getTime(); 
         d.setTime(time + (exdays*24*60*60*1000));
         var expires = "expires="+d.toUTCString();
-        document.cookie = url + "=" + time + "; " + expires;
+        document.cookie = '_ifljava_' + encodeURIComponent(url) + "=" + time + "; " + expires;
         return new Date(time);
     }
 }])

@@ -21,14 +21,25 @@ body {
 .container-fluid .text-muted {
   margin: 20px 0;
 }
-.navbar-brand-label{
+.navbar-label{
     color: #6782AC;
     position: relative;
     top: 16px;
     left: -14px;
     font-family: "Courier New", Courier, monospace;
 }
-.navbar-brand-label span{
+.navbar-label-caption{
+    color: #6782AC;
+    position: relative;
+    top: 16px;
+    left: -7px;
+    font-family: "Courier New", Courier, monospace;
+}
+.footer-label{
+    color: #6782AC;
+    font-family: "Courier New", Courier, monospace;
+}
+.navbar-label span{
     color:#B22F2F;
 }
 .navbar-brand-container{

@@ -14,6 +14,7 @@
   <script src="js/controllers.js"></script>
   <script src="js/factories/getCookieDate.js"></script>
   <script src="js/factories/createCookieDate.js"></script>
+  <script src="js/factories/purgeCookieUrls.js"></script>
   <script src="js/factories/createPublishedDate.js"></script>
   <script src="js/factories/readXmlFeed.js"></script>
   <script src="js/factories/filterExclusions.js"></script>
@@ -48,14 +49,15 @@
             <a class="navbar-brand-container" href="#"><img width="32" src="java.png"/></a>
         </div>
         <div class="collapse navbar-collapse">
-            <span class="navbar-brand-label">ifl<span>java</span>.com</span>
+            <span class="navbar-label">ifl<span>java</span>.com</span>
+            <span class="navbar-label-caption">- up to date news about java from the best websites!</span>
         </div>
     </div>
     </nav>
     <div ng-view></div>
     <footer class="footer">
     <div class="container-fluid"/>
-        <p class="text-muted">Contact: contact@geotabular.com</p>
+        <p class="text-muted footer-label pull-right">Contact: contact@geotabular.com</p>
     </div>
 </footer>
 </body>

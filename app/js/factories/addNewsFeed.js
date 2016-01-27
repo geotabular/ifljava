@@ -1,7 +1,7 @@
 'use strict'
 var iflJavaControllers = angular.module('iflJavaControllers');
 
-iflJavaControllers.factory('addNewsFeed', ['$http', 'jsonPath', 'filterExclusions', 'transformJson', 
+iflJavaControllers.factory('addNewsFeed', ['$http', 'jsonPath', 'filterExclusions', 'transformJson',
 function($http, jsonPath, filterExclusions, transformJson){
     return function($scope, readers, options){
         readers[options.type](options.url).success( function(data){
