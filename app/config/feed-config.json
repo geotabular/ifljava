@@ -23,6 +23,7 @@
                     "providerUrl": "http://www.javaworld.com/",
                     "url":"http://www.javaworld.com/index.rss",
                     "newsListPath": "responseData.feed.entries",
+                    "contentPath": "content",
                     "titlePath": "title",
                     "urlPath": "link",
                     "publishedDate":{

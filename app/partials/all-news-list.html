@@ -29,6 +29,7 @@
              <br><small>{{item.summary}}</small>
              <br><small class="provider">Source:&nbsp;<a href="{{item.providerUrl}}">{{item.provider}}</a></small>
              <br><small class="provider">Published:&nbsp;{{item.publishedDate.prefix}}{{item.publishedDate.time}}&nbsp;{{item.publishedDate.date}}</a></small>
+             <div ng-repeat="content in item.content">{{content}}</div>
         </li>
       </ul>
     </div>
