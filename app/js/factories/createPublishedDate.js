@@ -16,7 +16,7 @@ iflJavaControllers.factory('createPublishedDate', ['jsonPath','getCookieDate','c
                 } else {
                     var url = jsonPath(newsItem, options.urlPath);
                     var cookieDate = getCookieDate(url);
-                    date = cookieDate ? date = new Date(parseInt(cookieDate)) : new Date(createCookieDate(url, 1)); 
+                    date = cookieDate ? date = new Date(parseInt(cookieDate)) : new Date(createCookieDate(url, 365)); 
                     firstSeen = "Unknown, first seen ";
                 }
                 return {date : date.toLocaleDateString(), time: date.toLocaleTimeString(), dateObject: date, prefix: firstSeen};
