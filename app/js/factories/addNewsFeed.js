@@ -4,7 +4,7 @@ var iflJavaControllers = angular.module('iflJavaControllers');
 iflJavaControllers.factory('addNewsFeed', ['$http', 'jsonPath', 'filterExclusions', 'transformJson',
 function($http, jsonPath, filterExclusions, transformJson){
     return function($scope, readers, options){
-        readers[options.type](options.url).success( function(data){
+        readers[options.type](options.url + '?cache_bust=' + Date.now()).success( function(data){
             var rawNewsList = jsonPath(data, options.newsListPath);
             var filteredRawNewsList = options.exclusions ? filterExclusions(rawNewsList, options) : rawNewsList;
             var newsList = transformJson(filteredRawNewsList, options);
