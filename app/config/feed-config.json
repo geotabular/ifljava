@@ -34,6 +34,21 @@
                 },
                 {
                     "type":"xml",
+                    "provider": "IBM Developer Works",
+                    "providerUrl": "http://www.ibm.com/",
+                    "url":"http://www.ibm.com/developerworks/views/rss/customrssatom.jsp?zone_type=SixZones&zone_by=Java+technology&content_type=TwoTypes&type_by=Articles&search_by=&day=1&month=01&year=2008&max_entries=10&feed_by=rss&ibm-submit=Submit",
+                    "newsListPath": "responseData.feed.entries",
+                    "titlePath": "title",
+                    "urlPath": "link",
+                    "publishedDate":{
+                      "path":"pubDate"
+                    },
+                    "summaryPath": "contentSnippet",
+                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.ibm.com",
+					"rankIndex": 3
+                },
+                {
+                    "type":"xml",
                     "provider": "DZone: Java Zone",
                     "providerUrl": "http://www.dzone.com/java",
                     "url":"http://feeds.dzone.com/java",
@@ -45,7 +60,7 @@
                     },
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.dzone.com",
-					"rankIndex": 3
+					"rankIndex": 4
                 },
                 {
                     "type":"xml",
@@ -106,15 +121,6 @@
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.zeroturnaround.com",
 					"rankIndex": 8
-                }
-                
-                
-                
-                
-                
-                
-                
-                
-                
+                } 
     ]
 }
