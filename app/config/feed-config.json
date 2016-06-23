@@ -49,21 +49,6 @@
                 },
                 {
                     "type":"xml",
-                    "provider": "Developer.com",
-                    "providerUrl": "http://www.developer.com/java/",
-                    "url":"http://www.developer.com/icom_includes/feeds/developer/dev-25.xml",
-                    "newsListPath": "responseData.feed.entries",
-                    "titlePath": "title",
-                    "urlPath": "link",
-                    "publishedDate":{
-                      "path":"publishedDate"
-                    },
-                    "summaryPath": "contentSnippet",
-                    "favIconUrl": "http://www.google.com/s2/favicons?domain=www.developer.com/",
-					"rankIndex": 4
-                },
-                {
-                    "type":"xml",
                     "provider": "The Server Side",
                     "providerUrl": "http://www.theserverside.com/",
                     "url":"http://www.theserverside.com/rss/forum.tss?forum_id=2",
