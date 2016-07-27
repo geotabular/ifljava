@@ -32,7 +32,7 @@
                     },
                     "summaryPath": "contentSnippet",
                     "exclusions": [
-                      {"path":"title","includes":["% off", "deal alert"]}
+                      {"path":"title","includes":["% off", "deal alert", "limited time offer"]}
                     ],
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.javaworld.com",
 					"rankIndex": 2

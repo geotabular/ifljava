@@ -10,9 +10,9 @@ iflJavaControllers.factory('filterExclusions', ['jsonPath', function(jsonPath){
                   return childProp !== exclusion.value;
                 }
                 if(exclusion.includes){
-                  return exclusion.filter(function(include){
-                    return child.title.includes(include);
-                  }).length != 0;
+                  return exclusion.includes.filter(function(include){
+                    return child.title.toLowerCase().includes(include.toLowerCase());
+                  }).length == 0;
                 }
 
             }).length > 0;
