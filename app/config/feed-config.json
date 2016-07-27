@@ -13,7 +13,9 @@
                     "titlePath": "data.title",
                     "urlPath": "data.url",
                     "summaryPath": "data.domain",
-                    "exclusions": [{"path":"data.domain","value":"self.java"}],
+                    "exclusions": [
+                      {"path":"data.domain","value":"self.java"}
+                    ],
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.reddit.com",
 					"rankIndex": 1
                 },
@@ -29,6 +31,9 @@
                       "path":"publishedDate"
                     },
                     "summaryPath": "contentSnippet",
+                    "exclusions": [
+                      {"path":"title","includes":["% off", "deal alert"]}
+                    ],
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.javaworld.com",
 					"rankIndex": 2
                 },
@@ -121,6 +126,6 @@
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.zeroturnaround.com",
 					"rankIndex": 8
-                } 
+                }
     ]
 }
