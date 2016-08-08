@@ -108,6 +108,9 @@
                     "publishedDate":{
                       "path":"publishedDate"
                     },
+                    "exclusions": [
+                      {"path":"title","includes":["% off", "deal alert", "limited time offer","mega deal"]}
+                    ],
                     "summaryPath": "contentSnippet",
                     "favIconUrl": "http://www.google.com/s2/favicons?domain=www.javacodegeeks.com",
 					"rankIndex": 7
